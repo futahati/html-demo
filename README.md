@@ -2,6 +2,13 @@
 
 - https://steam.oxxostudio.tw/category/html/index.html
 
+## Html即編即所見
+
+- Vscode下載外部插件(快捷鍵Ctrl + Shift + X)
+  - 下載Live Server → Install → 點擊Trust Publisher & Install
+  - 可選擇：Disabie開啟程式／Disabie(Workspace)關閉程式
+  - 使用方式：在Vscode上的.html檔案上，按右鍵後，選Open with Live Server
+
 ## 標籤語法
 
 |        語法         | 說明                           |
