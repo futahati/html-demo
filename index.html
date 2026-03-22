@@ -2,119 +2,123 @@
 <html>
 
 <head>
-<title>我的第一個網頁</title>
+    <title>我的第一個網頁</title>
 
-<!-- 引用外部CSS -->
-<link rel="stylesheet" href="style.css">
+    <!-- 引用外部CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<style>
-    /* id專屬：使用方式 # + id內容 */
-    #news{
-        color: brown;
-    }
-    #time{
-        display: inline-block;
-        /* 1rem = 16px */
-        font-size: 1rem;
-        color: olive;
-        background-color: blue;
-        /* 內間距：1全部,2上下左右,4上右下左 */
-        /* padding: 12px;
+    <style>
+        /* id專屬：使用方式 # + id內容 */
+        #news {
+            color: brown;
+        }
+
+        #time {
+            display: inline-block;
+            /* 1rem = 16px */
+            font-size: 1rem;
+            color: olive;
+            background-color: blue;
+            /* 內間距：1全部,2上下左右,4上右下左 */
+            /* padding: 12px;
         padding-left: 6px; */
-        padding: 0 12px;
-        /* border線框：寬度 → 線條樣式 → 顏色*/
-        border: 6px solid tomato;
-        /* 外間距：1全部,2上下左右,4上右下左 */
-        /* margin: 0 0 12px 0; */
-        margin-bottom: 12px;
-    }
-    .content{
-        background-color: cyan;
-        font-weight: bold;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 0 12px 0px 12px;
-        border: 3px dashed rosybrown;
-        /* border-radius圓角 */
-        border-radius: 24px;
-        margin: 15px;
-    }
+            padding: 0 12px;
+            /* border線框：寬度 → 線條樣式 → 顏色*/
+            border: 6px solid tomato;
+            /* 外間距：1全部,2上下左右,4上右下左 */
+            /* margin: 0 0 12px 0; */
+            margin-bottom: 12px;
+        }
 
-    #image{
-        text-align: center;
-        margin-top: 1rem;
-    }
+        .content {
+            background-color: cyan;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0 12px 0px 12px;
+            border: 3px dashed rosybrown;
+            /* border-radius圓角 */
+            border-radius: 24px;
+            margin: 15px;
+        }
 
-    #image img{
-        border: 1px solid black;
-        padding: 6px;
-        background-color: darkolivegreen;
-    }
+        #image {
+            text-align: center;
+            margin-top: 1rem;
+        }
 
-    li{
-       list-style-type: none; 
-    }
+        #image img {
+            border: 1px solid black;
+            padding: 6px;
+            background-color: darkolivegreen;
+        }
 
-</style>
+        li {
+            list-style-type: none;
+        }
+    </style>
 
 </head>
 
 <body>
-&copy;write by irw
+    &copy;write by irw
 
-<h1>川普大點名！邀5國派軍艦「確保荷莫茲海峽安全」放話將繼續轟炸沿岸</h1>
-<h3 id="news">三立新聞網</h3>
-<div id="time">
-    2026年3月15日 週日 上午12:46
-</div>
+    <h1>川普大點名！邀5國派軍艦「確保荷莫茲海峽安全」放話將繼續轟炸沿岸</h1>
+    <h3 id="news">三立新聞網</h3>
+    <div id="time">
+        2026年3月15日 週日 上午12:46
+    </div>
 
-<div class="content">
-　　<u>美國總統川普</u>台灣時間今（15）日凌晨在社群發文，邀請因為伊朗關閉荷莫茲海峽受影響的<br>
-國家合作，派遣軍艦確保海峽的開放與安全，川普提到「希望<b>中國、法國、日本、南韓、英國</b>，<br>
-以及其他受到這種人為限制影響的國家，都能向該地區派遣軍艦，讓荷莫茲海峽不再受到一個已<br>
-經<s>被徹底斬首</s>的國家威脅。」<br>
-　　川普在文中表示，「與此同時，美國將對沿岸地區進行猛烈轟炸，並<mark>持續</mark>將伊朗的船隻與快<br>
-艇擊沉。無論如何，我們很快就會讓荷莫茲海峽重新開放、安全且自由通行。」<br>
-</div>
+    <div class="content">
+        　　<u>美國總統川普</u>台灣時間今（15）日凌晨在社群發文，邀請因為伊朗關閉荷莫茲海峽受影響的<br>
+        國家合作，派遣軍艦確保海峽的開放與安全，川普提到「希望<b>中國、法國、日本、南韓、英國</b>，<br>
+        以及其他受到這種人為限制影響的國家，都能向該地區派遣軍艦，讓荷莫茲海峽不再受到一個已<br>
+        經<s>被徹底斬首</s>的國家威脅。」<br>
+        　　川普在文中表示，「與此同時，美國將對沿岸地區進行猛烈轟炸，並<mark>持續</mark>將伊朗的船隻與快<br>
+        艇擊沉。無論如何，我們很快就會讓荷莫茲海峽重新開放、安全且自由通行。」<br>
+    </div>
 
-<hr>
-<a target="_blank" title="yahoo新聞" href="https://tw.news.yahoo.com/川普大點名-邀5國派軍艦-確保荷莫茲海峽安全-放話將繼續轟炸沿岸-164600338.html?guccounter=1">來源出處</a>
-<a href="https://www.youtube.com">youtube連結</a>
+    <hr>
+    <a target="_blank" title="yahoo新聞"
+        href="https://tw.news.yahoo.com/川普大點名-邀5國派軍艦-確保荷莫茲海峽安全-放話將繼續轟炸沿岸-164600338.html?guccounter=1">來源出處</a>
+    <a href="https://www.youtube.com">youtube連結</a>
 
-<div id="image">
-<!-- width="100%" 代表自動縮放圖片 -->
-<img width="45%" alt="新聞圖片"
-    src="https://s.yimg.com/ny/api/res/1.2/bpgkz39YwWiw7pasIuoNMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/zh-tw/setn.com.tw/7cee196a63813055030a21c814fb1667">
-<img width="45%" alt="新聞圖片"
-    src="https://s.yimg.com/ny/api/res/1.2/bpgkz39YwWiw7pasIuoNMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/zh-tw/setn.com.tw/7cee196a63813055030a21c814fb1667">
-</div>
+    <div id="image">
+        <!-- width="100%" 代表自動縮放圖片 -->
+        <img width="45%" alt="新聞圖片"
+            src="https://s.yimg.com/ny/api/res/1.2/bpgkz39YwWiw7pasIuoNMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/zh-tw/setn.com.tw/7cee196a63813055030a21c814fb1667">
+        <img width="45%" alt="新聞圖片"
+            src="https://s.yimg.com/ny/api/res/1.2/bpgkz39YwWiw7pasIuoNMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/zh-tw/setn.com.tw/7cee196a63813055030a21c814fb1667">
+    </div>
 
-<hr>
-<div class="content">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quam nobis, quidem accusantium rerum mollitia ut, fugit iure dolores iusto, repellendus cum provident optio sed esse consectetur dolor voluptas! Rerum?
-</div>
-<h2>其他新聞</h2>
-<ul>
-    <li>新聞連結1</li>
-    <li>新聞連結2</li>
-    <li>新聞連結3</li>
-    <li>新聞連結4</li>
-    <li>新聞連結5</li>
-</ul>
+    <hr>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quam nobis, quidem accusantium rerum mollitia ut,
+        fugit iure dolores iusto, repellendus cum provident optio sed esse consectetur dolor voluptas! Rerum?
+    </div>
+    <h2>其他新聞</h2>
+    <ul>
+        <li>新聞連結1</li>
+        <li>新聞連結2</li>
+        <li>新聞連結3</li>
+        <li>新聞連結4</li>
+        <li>新聞連結5</li>
+    </ul>
 
-<hr>
-<!-- ol自動編號；type是編號種類 -->
-<ol type="a">
-    <li>
-        <a href=""></a>
-        <a target="_blank" title="yahoo新聞" href="https://tw.news.yahoo.com/經典賽-wbc-日本-委內瑞拉-8強賽-2026-0315-233717289.html">經典賽即時賽況</a>
-    </li>
-    <li>
-        <a href="table.html">匯率表格</a>
-    </li>
-    <li>新聞連結3</li>
-    <li>新聞連結4</li>
-    <li>新聞連結5</li>
-</ol>
+    <hr>
+    <!-- ol自動編號；type是編號種類 -->
+    <ol type="a">
+        <li>
+            <a href=""></a>
+            <a target="_blank" title="yahoo新聞"
+                href="https://tw.news.yahoo.com/經典賽-wbc-日本-委內瑞拉-8強賽-2026-0315-233717289.html">經典賽即時賽況</a>
+        </li>
+        <li>
+            <a href="table.html">匯率表格</a>
+        </li>
+        <li>新聞連結3</li>
+        <li>新聞連結4</li>
+        <li>新聞連結5</li>
+    </ol>
 
 </body>
 
