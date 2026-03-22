@@ -1,0 +1,20 @@
+/* 背景色 body可視範圍區 */
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkcyan;
+}

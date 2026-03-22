@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>匯率網站</title>
+
+    <!-- 引用外部CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        table{
+            width: 80%;
+            margin: 12px auto;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 3px solid rgb(148, 148, 199);
+        }
+
+        th{
+            background-color: rgb(214, 182, 159);
+            color: rgb(7, 102, 105);
+        }
+
+        tr{
+            background-color: violet;
+        }
+
+        tr:nth-child(even){
+            background-color: azure;
+        }
+
+    </style>
+
 </head>
 <body>
     <a href="index.html">回到首頁</a>
     <h1>匯率查詢</h1>
     <!-- border框線的粗度 -->
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>幣別</th>
